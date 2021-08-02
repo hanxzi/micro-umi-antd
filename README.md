@@ -1,6 +1,6 @@
 # micro-umi-antd
 基于@umijs/plugin-qiankun搭建的微前端项目，主应用基座使用的umi+dva，子应用使用ant-design-pro和react create app。实现登录获取用户信息，主应用更新全局State,子应用获取State
-## Getting Started
+## 如何运行
 
 Install dependencies,
 
