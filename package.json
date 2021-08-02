@@ -1,0 +1,34 @@
+{
+  "name": "micro-umi-antd",
+  "version": "1.0.0",
+  "description": "micro qiankun use @umijs/plugin-qiankun",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm-run-all --serial install:*",
+    "start": "npm-run-all --parallel start:*",
+    "install:umi-main": "cd umi-main && yarn",
+    "start:umi-main": "cd umi-main && yarn start",
+    "install:app-react": "cd app-react && yarn",
+    "start:app-react": "cd app-react && yarn start",
+    "install:app-vue": "cd app-vue && yarn",
+    "start:app-vue": "cd app-vue && yarn start",
+    "install:antd-pro": "cd antd-pro && yarn",
+    "start:antd-pro": "cd antd-pro && yarn start",
+    "build": "npm-run-all --serial build:*",
+    "build:umi-main": "cd umi-main && npm run build",
+    "build:app-react": "cd app-react && npm run build",
+    "build:app-vue": "cd app-vue && npm run build",
+    "build:antd-pro": "cd app-vue && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanxzi/micro-umi-antd.git"
+  },
+  "author": "hanxzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanxzi/micro-umi-antd/issues"
+  },
+  "homepage": "https://github.com/hanxzi/micro-umi-antd#readme"
+}
